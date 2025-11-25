@@ -1,0 +1,106 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.container {
+  .navbar {
+    display: flex;
+    justify-content: space-evenly;
+    height: 90px;
+    background-color: black;
+    align-items: center;
+    .logo {
+      color: white;
+      font-size: 25px;
+    }
+    .elements {
+        text-transform: capitalize;
+      a {
+        font-size: 25px;
+        text-decoration: none;
+        color: white;
+        padding: 10px;
+        
+      }
+    }
+  }
+  .text {
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    .body {
+      text-align: justify;
+      width: 40%;
+      margin: 10px;
+      h3 {
+        text-transform: capitalize;
+        font-size: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+      }
+      h1 {
+        text-transform: capitalize;
+        font-size: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+      }
+      span {
+        color: orange;
+      }
+      h2 {
+        text-transform: capitalize;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 10px;
+      }
+      p {
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        text-transform: capitalize;
+        padding-bottom: 10px;
+      }
+      .icons{
+        padding-top: 10px;
+        i{
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+      }
+      .btn{
+        button{
+            width: 90px;
+            padding: 5px 0px;
+            border-radius: 10px;
+            text-transform: capitalize;
+            
+        }
+        #btn1{
+            background-color: red;
+            a{
+                text-decoration: none;
+                color: white;
+            }
+        }
+        #btn2{
+            background-color: green;
+            margin: 10px;
+            a{
+                text-decoration: none;
+                color: white;
+                
+            
+            }
+        }
+      }
+    }
+    .img {
+      img {
+        width: 200px;
+        height: 300px;
+      }
+    }
+  }
+}
